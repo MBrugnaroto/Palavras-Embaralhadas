@@ -2,10 +2,11 @@ package MecanicasDoJogo;
 
 import Principal.MecanicaDoJogo;
 
-public class TerminaJogo implements MecanicaDoJogo {
+public class Errou implements MecanicaDoJogo{
 
 	@Override
 	public String funcaoMecanica() {
-		return "exit";
+		return "Errou";
 	}
+
 }
