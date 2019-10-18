@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
@@ -10,13 +11,13 @@ class TesteEmbaralhador {
 	@Test
 	void testCollectionsShuffle() {
 		EmbaralharCollectionsShuffle c = new EmbaralharCollectionsShuffle();
-		System.out.println(c.embaralharPalavra("tomanocu"));
+		assertNotEquals(c.embaralharPalavra("Embaralhar"), "Embaralhar");
 	}
 	
 	@Test
 	void testPosicaoImparPorPar() {
 		EmbaralharPosicaoImparPorPar d = new EmbaralharPosicaoImparPorPar();
-		System.out.println(d.embaralharPalavra("tomanocu"));
+		assertEquals(d.embaralharPalavra("Embaralhar"), "mEabarhlra");
 	}
 
 }

@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.IOException;
@@ -12,9 +13,9 @@ class TesteBancoDePalavras {
 	void leituraArquivo() throws IOException {
 		BancoDePalavras c = new BancoDePalavras();
 		
-		System.out.println(c.getPalavra());
-		System.out.println(c.getPalavra());
-		System.out.println(c.getPalavra());
+		assertEquals(c.getPalavra(), "Mateus");
+		assertEquals(c.getPalavra(), "Gremio");
+		assertEquals(c.getPalavra(), "Mais");
 	}
 
 }
