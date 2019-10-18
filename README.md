@@ -16,5 +16,5 @@
 | Modo | Informação | Modelo de Pontuação |
 | ---- |:----------:|:-------------------:|
 |`Fácil`| A palavra sofre um embaralhamento e dentro das 3 tentativas você a verá do mesmo modo, ou seja, no mesmo formado da primeira tentativa. | <p> Acerto na primeira tentativa: 15 pontos</p><p> Acerto na segunda tentativa : 10 pontos</p><p> Acerto na terceira tentativa: 5  pontos</p><p> Errou a palavra             : 0  pontos</p> |
-|`Difícil| A palavras sofre um embaralhamento e dentro das 3 tentativas você a verá em formatos diferentes, ou seja, a palavra será mostra em formatos diferentes. | <p> Acerto na primeira tentativa: 30 pontos</p><p> Acerto na segunda tentativa : 20 pontos</p><p> Acerto na terceira tentativa: 10 pontos</p><p> Errou a palavra             : 0  pontos</p> |
+|`Difícil`| A palavras sofre um embaralhamento e dentro das 3 tentativas você a verá em formatos diferentes, ou seja, a palavra será mostra em formatos diferentes. | <p> Acerto na primeira tentativa: 30 pontos</p><p> Acerto na segunda tentativa : 20 pontos</p><p> Acerto na terceira tentativa: 10 pontos</p><p> Errou a palavra             : 0  pontos</p> |
 
