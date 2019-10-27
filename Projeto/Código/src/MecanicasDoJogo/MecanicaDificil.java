@@ -76,7 +76,6 @@ public class MecanicaDificil implements MecanicaDoJogo{
 	@Override
 	public Boolean finalJogo() throws IOException {
 		if ((palavra == nPalavras && trocouPalavra) || (palavra == nPalavras && tentativa == nTentativas)) {
-			BD.fecharBanco();
 			return true;
 		}
 		else
