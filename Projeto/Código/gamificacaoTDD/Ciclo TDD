@@ -1,0 +1,57 @@
+----------------------------> REQUISITOS PARA O PLACAR <--------------------------------
+1 -> Registrar um tipo de ponto para um usuário. | OK
+2 -> Retornar todos os pontos de um usuário.  	 | OK
+3 -> Retornar ranking de um tipo de ponto.		 | OK
+
+--> Requisito 1 - testes:
+1 -> registraUmTipoDePontoParaUmUsuario()
+
+--> Requisito 2 - testes:
+1 -> retornaApenasUmPontoDeUmUsuário()
+2 -> retornaMaisDeUmPontoDeUmUsuário()
+
+--> Requisito 3 - testes:
+1 -> retornaRankingDeUmTipoDePonto();
+
+-----------------------> REQUISITOS PARA O MOCKARMAZENAMENTO <--------------------------
+1 -> Armazenar que um usuário recebeu uma quantidade de um tipo de ponto.		 	| OK
+2 -> Recuperar quantos pontos de um tipo tem um usuário.							| OK
+3 -> Retornar todos os usuários que já receberam algum tipo de ponto.				| OK
+4 -> Retornar todos os tipos de ponto que já foram registrados para algum usuário.	| OK
+
+--> Requisito 1 - testes:
+1 -> armazenaUsuarioTipoEPontuacao()
+
+--> Requisito 2 - testes:
+1 -> recuperaPontosDeUmTipoDeUmUsuario()
+2 -> recuperaPontosDeUmTipoDeUmUsuarioQuePontuouVariasVezes();
+
+--> Requisito 3 - testes:
+1 -> recuperaUsuarioQuePontuou()
+2 -> recuperaMaisDeUmUsuarioQuePontuou()
+
+--> Requisito 4 - testes:
+1 -> recuperaUmTipoDePontoDeUmUsuario()
+2 -> recuperMaisDeUmTipoDePontoDeUmUsuario()
+
+-------------------------> REQUISITOS PARA O ARMAZENAMENTO <----------------------------
+1 -> Armazenar que um usuário recebeu uma quantidade de um tipo de ponto.		 	| OK
+2 -> Recuperar quantos pontos de um tipo tem um usuário.							| OK
+3 -> Retornar todos os usuários que já receberam algum tipo de ponto.				| OK
+4 -> Retornar todos os tipos de ponto que já foram registrados para algum usuário.	| OK
+*Todos os requisitos são feitos encima de um arquivo.
+
+--> Requisito 1 - testes:
+1 -> armazenaUsuarioTipoEPontuacao()
+
+--> Requisito 2 - testes:
+1 -> recuperaPontosDeUmTipoDeUmUsuario()
+2 -> recuperaPontosDeUmTipoDeUmUsuarioQuePontuouVariasVezes();
+
+--> Requisito 3 - testes:
+1 -> recuperaUsuarioQuePontuou()
+2 -> recuperaMaisDeUmUsuarioQuePontuou()
+
+--> Requisito 4 - testes:
+1 -> recuperaUmTipoDePontoDeUmUsuario()
+2 -> recuperMaisDeUmTipoDePontoDeUmUsuario()
